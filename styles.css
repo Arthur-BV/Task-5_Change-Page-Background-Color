@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  background-color: brown;
+}
+
+.button_bar {
+  display: block;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+.button_bar>button {
+  width: 100px;
+  height: 50px;
+}
+
+.text_bar {
+  display: block;
+  background-color: beige;
+  padding: 15px;
+}
+
+.text_bar>input {
+  width: 100px;
+  height: 50px;
+}
+
+.text_field {
+  display: block;
+  background-color: azure;
+  padding: 15px;
+}
